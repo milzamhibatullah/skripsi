@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_small"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/addReport"
+            android:icon="@drawable/ic_camera_small"
+            android:title="Lapor" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_checked_small"
+            android:title="Laporan Diterima" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_account_small_black"
+            android:title="Profile Saya" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout_small"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

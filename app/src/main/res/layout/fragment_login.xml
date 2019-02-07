@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="28dp"
+    android:orientation="vertical"
+    android:background="@drawable/bghigh">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/textlogowhite"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:hint="@string/email"
+        app:hintTextAppearance="@style/textInputLayout"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorWhiteSolid"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorWhiteSolid"
+            android:id="@+id/etFragmentEmail"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:hint="@string/password"
+        app:hintTextAppearance="@style/textInputLayout"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@color/colorWhiteSolid"
+            android:textColorLink="@color/colorWhiteSolid"
+            android:textColor="@color/colorWhiteSolid"
+            android:backgroundTint="@color/colorWhiteSolid"
+            android:inputType="textPassword"
+            android:id="@+id/etFragmentPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="7dp"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhiteSolid"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_app_color"
+        android:text="@string/login"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFragmentRegister"
+        android:textColor="@color/colorWhiteSolid"
+        android:textSize="16dp"
+        android:text="@string/register"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhiteSolid"
+        android:id="@+id/btnLupapassword"
+        android:padding="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_app_color"
+
+        android:text="@string/lupaPassword"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorWhiteSolid"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

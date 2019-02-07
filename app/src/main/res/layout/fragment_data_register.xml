@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@drawable/bghigh">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:hint="masukkan nama anda"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/dataNama"
+            android:textColor="@color/colorWhiteSolid"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:hint="masukkan password"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/dataPassword"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhiteSolid"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:hint="masukkan nomor ponsel"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhiteSolid"
+            android:id="@+id/dataPonsel"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:hint="masukkan alamat"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhiteSolid"
+            android:inputType="textMultiLine"
+            android:id="@+id/dataAlamat"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDaftar"
+        android:background="@drawable/corner_background_color"
+        android:textColor="@color/colorWhiteSolid"
+        android:layout_marginTop="5dp"
+        android:text="NEXT"/>
+</LinearLayout>

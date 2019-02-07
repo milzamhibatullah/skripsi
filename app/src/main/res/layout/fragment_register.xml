@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bghigh">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgUserRegister"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/userwhite" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/inputLayoutRegisterEmail"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/imgUserRegister"
+        app:hintTextAppearance="@style/textInputLayout"
+        android:textColorHint="@color/colorWhiteSolid"
+        android:hint="@string/email"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etRegisterEmail"
+            android:backgroundTint="@color/colorWhiteSolid"
+            android:textColorLink="@color/colorWhiteSolid"
+            android:textColor="@color/colorWhiteSolid"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLayoutRegisterEmail"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_white"
+        android:id="@+id/btnRegister"
+        android:padding="7dp"
+        android:text="@string/daftar"
+        android:textColor="@color/colorWhiteSolid" />
+</RelativeLayout>
+
+
+
+</RelativeLayout>

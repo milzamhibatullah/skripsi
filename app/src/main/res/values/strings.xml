@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SkripsiApp</string>
+    <string name="login">Login</string>
+    <string name="pilihKategori">Pilih Kategori</string>
+    <string name="konfirm">Konfirmasi</string>
+    <string name="logoutConfirm">Yakin anda ingin logout ?</string>
+    <string name="daftar">Daftar</string>
+    <string name="namaAnda">Masukkan Nama Anda</string>
+    <string name="phoneNumber">Nomor Handphone</string>
+    <string name="register">Belum ada akun? Daftar Sekarang</string>
+    <string name="lupaPassword">Lupa password akun ?</string>
+    <string name="email">Masukan Alamat Email</string>
+    <string name="password">Masukkan Password</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
